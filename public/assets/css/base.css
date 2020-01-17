@@ -394,9 +394,13 @@ input, select, textarea {
       background-position: center center;
     }
 
-    #main > section.one {
-      background-color: #81918E;
-      background-image: url("../../images/banner.jpg");
+	
+     #my-video {
+      position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			z-index: -1;
     }
 
     #main > section.two {
